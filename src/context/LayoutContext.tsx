@@ -1,4 +1,5 @@
-import { createContext, useContext, useMemo, useState, ReactNode } from 'react'
+import { createContext, useContext, useMemo, useState } from 'react'
+import type { ReactNode } from 'react'
 
 type LayoutState = {
   sidebarCollapsed: boolean
