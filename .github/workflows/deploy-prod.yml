@@ -36,7 +36,7 @@ jobs:
 
       - name: Deploy to Cloudflare Pages
         run: |
-          npx wrangler pages deploy dist --project-name=xyoutube
+          npx wrangler pages deploy dist --project-name=cyoutube
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CF_DEPLOY_TO_PAGES_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
