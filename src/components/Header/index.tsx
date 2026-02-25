@@ -1,4 +1,5 @@
-import { FormEvent, useRef, useState } from 'react'
+import type { FormEvent } from 'react'
+import { useRef, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import ytLogo from '../../assets/yt-logo.png'
 import ytLogoMobile from '../../assets/yt-logo-mobile.png'

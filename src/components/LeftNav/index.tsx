@@ -14,7 +14,6 @@ import {
   Lightbulb,
   Clapperboard,
   ListVideo,
-  UserSquare2,
   ChevronRight,
   Settings,
   HelpCircle,
